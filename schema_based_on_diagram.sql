@@ -33,3 +33,11 @@ CREATE TABLE treatments (
   type VARCHAR(50), 
   name VARCHAR(50)
 );
+
+CREATE TABLE histories_treatments (
+  id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY, 
+  medical_histories_id INT, 
+  treatments_id INT, 
+  FOREIGN KEY (medical_histories_id) REFERENCES medical_histories (id) ON DELETE RESTRICT ON UPDATE CASCADE, 
+  FOREIGN KEY (treatments_id) REFERENCES treatments (id) ON DELETE RESTRICT ON UPDATE CASCADE
+);
