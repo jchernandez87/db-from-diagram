@@ -1,14 +1,14 @@
 ## Authors
 
-👤 **Daniel Jaramillo**
-
-- GitHub: [@D4nielJ](https://github.com/d4nielj)
-
 👤 **Juan Carlos Hernandez**
 
 - GitHub: [Juan Carlos Hernandez](https://github.com/jchernandez87)
 - Twitter: [Twitter](https://twitter.com/Juancar70771241)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/juan-carlos-hernandez-200a05175)
+
+👤 **Daniel Jaramillo**
+
+- GitHub: [@D4nielJ](https://github.com/d4nielj)
 
 ## 🤝 Contributing
 
