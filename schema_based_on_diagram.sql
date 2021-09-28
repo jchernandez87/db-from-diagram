@@ -27,3 +27,9 @@ CREATE TABLE invoice_items (
   invoice_id INT, 
   treatment_id INT
 );
+
+CREATE TABLE treatments (
+  id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY, 
+  type VARCHAR(50), 
+  name VARCHAR(50)
+);
