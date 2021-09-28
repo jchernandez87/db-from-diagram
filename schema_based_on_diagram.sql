@@ -19,3 +19,11 @@ CREATE TABLE invoices (
   payed_at TIMESTAMP, 
   medical_history_id INT
 );
+
+CREATE TABLE invoice_items (
+  id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY, 
+  unit_price DECIMAL, quantity INT, 
+  total_price DECIMAL, 
+  invoice_id INT, 
+  treatment_id INT
+);
