@@ -1,3 +1,5 @@
+![clinic_diagram](https://user-images.githubusercontent.com/44485810/135162364-bc51f265-ba39-402a-bb60-6470f57ea1e9.png)
+
 ## Authors
 
 👤 **Juan Carlos Hernandez**
